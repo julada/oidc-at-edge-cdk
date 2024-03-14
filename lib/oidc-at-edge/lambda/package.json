@@ -1,0 +1,24 @@
+{
+    "name": "auth-lambda",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "ncc build index.ts"
+    },
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.133",
+        "@types/cookie": "^0.6.0",
+        "@types/jsonwebtoken": "^9.0.5",
+        "@vercel/ncc": "0.38.1"
+    },
+    "dependencies": {
+        "@aws-sdk/client-secrets-manager": "3.504.0",
+        "aws-lambda": "1.0.7",
+        "axios": "1.6.7",
+        "cookie": "0.6.0",
+        "jsonwebtoken": "9.0.2"
+    },
+    "author": "",
+    "license": "ISC"
+}
